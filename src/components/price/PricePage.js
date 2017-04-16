@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React, {Component} from "react";
+import Prices from "./Prices";
 
 class PricePage extends Component {
     render() {
         return (
-            <div className="price">
-                <h1>Price</h1>
-            </div>
+            <main className="site-content">
+                <Prices/>
+            </main>
         );
     }
 }
