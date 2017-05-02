@@ -27,7 +27,7 @@ npm run build
 
 Navigate into the production directory
 ```bash
-aws s3 cp . s3://etdrivingschool-web
+cd build
 ```
 
 Create AWS S3 bucket

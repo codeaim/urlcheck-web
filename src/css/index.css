@@ -904,9 +904,6 @@ header .header-actions .header-action i {
     background-color: #f0f0f0;
     margin-bottom: 2em;
     padding: 2em;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 .questions .question .question-title {
