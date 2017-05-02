@@ -164,14 +164,7 @@ header .header-actions .header-action i {
     }
 }
 
-.site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
 .site-content {
-    flex: 1;
     background-color: #ffffff;
 }
 
