@@ -3,10 +3,8 @@ import {Route} from "react-router-dom";
 import Header from "./common/Header";
 import Footer from "./common/Footer";
 import HomePage from "./home/HomePage";
-import AboutPage from "./about/AboutPage";
-import PricePage from "./price/PricePage";
-import LearnPage from "./learn/LearnPage";
-import ContactPage from "./contact/ContactPage";
+import LoginPage from "./login/LoginPage";
+import DashboardPage from "./dashboard/DashboardPage";
 
 class App extends Component {
     render() {
@@ -14,10 +12,8 @@ class App extends Component {
             <div className="site">
                 <Header/>
                 <Route exact path="/" component={HomePage}/>
-                <Route path="/about" component={AboutPage}/>
-                <Route path="/price" component={PricePage}/>
-                <Route path="/learn" component={LearnPage}/>
-                <Route path="/contact" component={ContactPage}/>
+                <Route path="/login" component={LoginPage}/>
+                <Route path="/dashboard" component={DashboardPage}/>
                 <Footer/>
             </div>
         );

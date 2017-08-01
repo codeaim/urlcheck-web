@@ -1,18 +1,18 @@
-# ET Driving School Web
+# Urlcheck Web
 
 ### Introduction
 
-**etdivingschool-web** is a react based website for promoting ET Driving School
+**urlcheck-web** is a react based website for using & promoting urlcheck
 
 # Installation
 Clone the repository
 ```bash
-git clone https://github.com/codeaim/etdrivingschool-web.git
+git clone https://github.com/codeaim/urlcheck-web.git
 ```
 
 Navigate into the project directory
 ```bash
-cd etdrivingschool-web
+cd urlcheck-web
 ```
 
 Install dependenices
@@ -32,17 +32,17 @@ cd build
 
 Create AWS S3 bucket
 ```bash
-aws s3api create-bucket --bucket etdrivingschool-web --region eu-west-1 --create-bucket-configuration LocationConstraint=eu-west-1
+aws s3api create-bucket --bucket urlcheck-web --region eu-west-1 --create-bucket-configuration LocationConstraint=eu-west-1
 ```
 
 Copy production directory to S3 bucket
 ```bash
-aws s3 cp . s3://etdrivingschool-web --recursive --acl public-read
+aws s3 cp . s3://urlcheck-web --recursive --acl public-read
 ```
 
 Configure bucket as static website
 ```bash
-aws s3 website s3://etdrivingschool-web --index-document index.html
+aws s3 website s3://urlcheck-web --index-document index.html
 ```
 
 
